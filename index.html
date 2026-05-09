@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Task List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-wrapper">
+        <header>
+            <h1>My Daily Tasks</h1>
+            <p>Stay organized and get things done.</p>
+        </header>
+
+        <section class="input-section">
+            <input type="text" id="todo-input" placeholder="What needs to be done?">
+            <button id="add-btn">Add</button>
+        </section>
+
+        <section class="list-section">
+            <ul id="todo-list">
+                <!-- Tasks will be injected here by JS -->
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
